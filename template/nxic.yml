@@ -2,7 +2,7 @@
 version: "1"
 
 env:
-  MANIFEST_PATH: ${INFRASTRUCTURE_PATH}/manifests
+  MANIFEST_PATH: ${AZIONA_WORKSPACE_INFRASTRUCTURE}/manifests
 
 options:
   interpolation: true
