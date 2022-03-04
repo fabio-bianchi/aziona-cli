@@ -56,7 +56,7 @@ Infrastructure is a tool to manage cloud infrastructure and IAM roles to support
 - destroy sequence
     - `aziona-infra -t ddsa delete delete-iam-service-account`
     - `aziona-infra -t nxic delete`
-    - `aziona-infra -t albic delete delete-iam-service-account` 
+    - `aziona-infra -t albic delete delete-iam-service-account` (you should wait some time before running this command until AWS alb has been deleted)
     - `aziona-infra -t eks delete-cluster`
     - `aziona-infra -t deployer terraform-eks-destroy-role`
     - `aziona-infra -t fargate delete-role`
